@@ -1,24 +1,38 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Trail Rank Ruby on Rails application
 
-Things you may want to cover:
+This application provides a platform for users
+to share information and ratings on trails. The
+intent is to make trails of all kinds more
+accessible yb providing information and sharing
+experiences.
 
-* Ruby version
+## Getting started
 
-* System dependencies
+To get started with this app, clone the repo
+and then install the required gems:
 
-* Configuration
+'''
+$ bundle install --without production
+'''
 
-* Database creation
+Next, migrate the database:
 
-* Database initialization
+'''
+$ rails db:migrate
+'''
 
-* How to run the test suite
+Finally, run the test suite to verify that
+everything is working correctly:
 
-* Services (job queues, cache servers, search engines, etc.)
+'''
+$ rails test
+'''
 
-* Deployment instructions
+If the test suite passes, you will be ready
+to run the app in a local server:
 
-* ...
+'''
+$ rails server
+'''
