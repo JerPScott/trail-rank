@@ -1,0 +1,6 @@
+Trail Name
+Distance
+Altitude Gain
+Terrain
+<Conditions>
+<Comments>
