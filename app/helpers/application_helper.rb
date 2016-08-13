@@ -8,4 +8,11 @@ module ApplicationHelper
       page_title + " | " + base_title
     end
   end
+
+  # Constructs the page banners
+  def banner(page_title = "")
+    if not page_title.empty?
+      page_title
+    end
+  end
 end
