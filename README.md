@@ -5,7 +5,7 @@
 This application provides a platform for users
 to share information and ratings on trails. The
 intent is to make trails of all kinds more
-accessible yb providing information and sharing
+accessible by providing information and sharing
 experiences.
 
 ## Getting started
